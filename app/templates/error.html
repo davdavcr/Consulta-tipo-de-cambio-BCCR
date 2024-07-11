@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error en la Consulta</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Error en la Consulta</h1>
+    <p>{{ error }}</p>
+    <button><a href="{{ url_for('home') }}">Volver</a></button>
+
+    
+</body>
+</html>

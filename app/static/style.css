@@ -1,0 +1,78 @@
+:root {
+    --text-color: #f5f5f5;
+    --hover-color: #333c87;
+    --bg-color: #250821;
+    --secon-bg-color: #292e33;
+    --big-font: 2.5rem;
+    --norma-font: 2rem;
+    --white-color: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: var(--big-font);
+    color: var(--white-color);
+}
+
+form, .container {
+    background-color: var(--secon-bg-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 .5rem var(--hover-color);
+}
+
+label, p {
+    font-size: var(--norma-font);
+}
+
+input[type="date"] {
+    padding: 10px;
+    font-size: var(--norma-font);
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: var(--hover-color);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: var(--norma-font);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, background-position 0.2s;
+    margin-top: 10px;
+    background-size: 200% auto;
+    color: var(--text-color);
+    display: inline-block;
+    background-image: linear-gradient(to right, var(--hover-color) 50%, var(--secon-bg-color) 50%);
+    background-position: left;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 .5rem var(--hover-color);
+    background-position: right;
+}
+
+button a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+button a:hover {
+    color: var(--text-color);
+}
