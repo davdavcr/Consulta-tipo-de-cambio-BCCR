@@ -1,8 +1,8 @@
-# Proyecto de Consulta de Tipo de Cambio
+# Tarea de Consulta de Tipo de Cambio
 
 ## Estudiante: David Arturo Brenes Angulo
 
-¡Bienvenido! Este es un proyecto simple para consultar el tipo de cambio de compra y venta del Banco Central de Costa Rica (BCCR) para una fecha específica. Utilizamos Flask para el backend y Zeep para consumir un servicio web.
+¡Bienvenido! Este es un proyecto simple para consultar el tipo de cambio de compra y venta del Banco Central de Costa Rica (BCCR) para una fecha específica. Utilizamos Flask para el backend, Zeep y lxml para consumir un servicio web.
 
 ## Requisitos
 
