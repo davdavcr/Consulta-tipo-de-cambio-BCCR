@@ -20,17 +20,19 @@
     cd Tarea2_david
     ```
 
-2. (Opcional) Crea y activa un entorno virtual para mantener las dependencias organizadas:
+2. (Obligatorio) Crea y activa un entorno virtual para mantener las dependencias organizadas:
 
     ```bash
     python -m venv venv
-    source venv/bin/activate  # En Windows: venv\Scripts\activate
+    source venv/bin/activate  # En Windows: .\venv\Scripts\activate
     ```
 
 3. Instala las dependencias necesarias:
 
     ```bash
     pip install -r requirements.txt
+    pip install flask
+    pip install zeep lxml
     ```
 
 ## Cómo Ejecutar
